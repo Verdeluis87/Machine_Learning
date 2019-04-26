@@ -1,5 +1,5 @@
 # import necessary libraries
-from model import run_model, ModelInput, ModelOutput, ModelException
+from Machine_Learning.model import run_model, ModelInput, ModelOutput, ModelException
 from flask import (
     Flask,
     render_template,
