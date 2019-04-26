@@ -1,12 +1,11 @@
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-with open('static/models/encoders.pkl', 'rb') as ff:
+with open('Machine_Learning/static/models/encoders.pkl', 'rb') as ff:
     encoders = pickle.load(ff)
 
-with open('static/models/rf_model.pkl', 'rb') as file:
+with open('Machine_Learning/static/models/rf_model.pkl', 'rb') as file:
     rf_model = pickle.load(file)
-
 
 class ModelException(Exception):
     pass
